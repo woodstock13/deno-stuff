@@ -6,13 +6,6 @@ import { v4 } from "https://deno.land/std/uuid/mod.ts";
 
 let sockets = new Map<string, WebSocket>();
 
-/* 
-TODO : go futher
-- list all the current users
-- timeStamp each message
-- create and save messages in a room / develop private chat
-*/
-
 interface BroadcastObj {
   name: string;
   msg: string;
